@@ -1,3 +1,5 @@
+[Presentación1.pptx](https://github.com/makemile/LIM015-data-lovers/files/6876052/Presentacion1.pptx)
+![pagina principal baja fidelidad](https://user-images.githubusercontent.com/83560300/126942230-45fea619-e677-48ad-86fc-24df4487f5ce.png)
 # Data Lovers
 
 ## Índice
@@ -154,7 +156,40 @@ Para mayor información de las historia de usuario puede hacer click en este lin
 
 ## Prototipo de baja fidelidad
 
-En éste boceto se propuso diseñar la pagina principal.
+En éste boceto se propuso diseñar la página principal.
+
+![pagina principal baja fidelidad](https://user-images.githubusercontent.com/83560300/126942325-c56fbbb8-0262-4742-8a08-6d8d1d41a455.png)
+
+En éste boceto se propuso diseñar la la ficha técnica.
+
+![ficha estadistica baja fidelidad](https://user-images.githubusercontent.com/83560300/126942719-9a357b54-7773-4f01-9e27-9f670b3166d2.png)
+
+
+En éste boceto se propuso diseñar la interfaz principal.
+
+![Presentación1](https://user-images.githubusercontent.com/83560300/126942632-d1d17153-8a5f-4a43-8c86-8e76e843d0d6.png)
+
+En éste boceto se propuso diseñar el menú principal responsive.
+
+![Presentación3](https://user-images.githubusercontent.com/83560300/126942802-7e388135-96f2-406f-b8ac-0b611595f7a1.png)
+
+En éste boceto se propuso diseñar la ficha técnica:
+
+![Presentación2](https://user-images.githubusercontent.com/83560300/126943502-e875a529-875c-4053-9730-031c740fae41.png)
+
+
+En éste boceto se propuso diseñar las estadísticas.
+Top 10 de mayor punto de combate:
+
+![estadisticas 10 mas fuertes](https://user-images.githubusercontent.com/83560300/126943116-a4de5e53-ef5b-4a2f-9b48-222cbce8acc7.png)
+
+Top 10 de mayor peso:
+
+![Top 10 segun su peso](https://user-images.githubusercontent.com/83560300/126943300-f73152c1-a895-42f9-b6ef-965246787947.png)
+
+Top 10 de mayor nivel de vida:
+
+![Top 10 segun nivel de vida](https://user-images.githubusercontent.com/83560300/126943340-bb3339c3-c6b0-48e2-b033-eafbfc4f5907.png)
 
 ## Pruebas unitarias
 Las pruebas unitarias tienen una cobertura del mas 70% de statements (sentencias), functions (funciones), lines (líneas), y branches (ramas) del archivo src/data.js que contiene las funciones encargadas de procesar, filtrar y ordenar la data, así como calcular estadísticas.
