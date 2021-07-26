@@ -1,5 +1,6 @@
 [Presentación1.pptx](https://github.com/makemile/LIM015-data-lovers/files/6876052/Presentacion1.pptx)
-![pagina principal baja fidelidad](https://user-images.githubusercontent.com/83560300/126942230-45fea619-e677-48ad-86fc-24df4487f5ce.png)
+![top1](https://user-images.githubusercontent.com/83560300/126944253-0c0297af-5dde-4a7d-a901-a68131746018.gif)
+
 # Data Lovers
 
 ## Índice
@@ -160,23 +161,19 @@ En éste boceto se propuso diseñar la página principal.
 
 ![pagina principal baja fidelidad](https://user-images.githubusercontent.com/83560300/126942325-c56fbbb8-0262-4742-8a08-6d8d1d41a455.png)
 
-En éste boceto se propuso diseñar la la ficha técnica.
-
-![ficha estadistica baja fidelidad](https://user-images.githubusercontent.com/83560300/126942719-9a357b54-7773-4f01-9e27-9f670b3166d2.png)
-
+## Prototipo de  alta fidelidad
 
 En éste boceto se propuso diseñar la interfaz principal.
+![Presentación1](https://user-images.githubusercontent.com/83560300/126944043-517c4952-84ba-42b5-b88c-4e3238869b4e.png)
 
-![Presentación1](https://user-images.githubusercontent.com/83560300/126942632-d1d17153-8a5f-4a43-8c86-8e76e843d0d6.png)
+
+En éste boceto se propuso diseñar la la ficha técnica.
+![Presentación2](https://user-images.githubusercontent.com/83560300/126943946-860cf810-4de6-46bd-ad43-7278b3f9287a.png)
+
 
 En éste boceto se propuso diseñar el menú principal responsive.
 
 ![Presentación3](https://user-images.githubusercontent.com/83560300/126942802-7e388135-96f2-406f-b8ac-0b611595f7a1.png)
-
-En éste boceto se propuso diseñar la ficha técnica:
-
-![Presentación2](https://user-images.githubusercontent.com/83560300/126943502-e875a529-875c-4053-9730-031c740fae41.png)
-
 
 En éste boceto se propuso diseñar las estadísticas.
 Top 10 de mayor punto de combate:
