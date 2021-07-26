@@ -94,33 +94,11 @@ for (let i = 0; i < seleccionarTipo.length; i++) {
 }
 
 
-/* manipulacion del menu funcion para seleccionar region*/
-
-// const regionPoke = document.querySelectorAll(".menu__link2");
-
-// for (let i = 0; i < regionPoke.length; i++) {
-
-//     regionPoke[i].addEventListener("click", (e) => {
-
-//         const captureRegion = e.target.id;
-
-//         const mostrarRegion = data.pokemon.filter(elemento => {
-
-//         });
-    
-//     });
-// }
-        //limpiarContenido(document.getElementById("listaPokemon"));
-
-//funcion para pora ordednar A-Z y Z-A
 const ordenarNombres = document.querySelectorAll(".menu__link1");
 
 for (let i = 0; i < ordenarNombres.length; i++) {
 
     ordenarNombres[i].addEventListener("click", (e) => {
-
-        document.getElementById("listaPokemon").style.display = "block";
-        document.querySelector(".estadisticas").style.display = "none";
 
         const ordAsc = e.target.id;
 
@@ -272,7 +250,7 @@ estadisticas.addEventListener("click", (e) => {
     contenedorEstad.appendChild(estadisticaH1);
 
 
-    const section = document.createElement("section");
+    const section = document.createElement("section"); /* esta todo mi contenido */
     section.classList.add("section");
     contenedorEstad.appendChild(section);
 
