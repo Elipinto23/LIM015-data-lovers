@@ -8,9 +8,6 @@
 * [4. consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-=======
-[Presentación1.pptx](https://github.com/makemile/LIM015-data-lovers/files/6876052/Presentacion1.pptx)
-![top1](https://user-images.githubusercontent.com/83560300/126944253-0c0297af-5dde-4a7d-a901-a68131746018.gif)
 
 ***
 
