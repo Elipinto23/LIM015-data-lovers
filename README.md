@@ -61,11 +61,12 @@ Encuentra tus pokemones favoritos y descubre todas sus habilidades para converti
 The MIT License (MIT)
 
 
-### ✔️Pruebas unitarias
+### 🃏 Pruebas unitarias
 Para correr las pruebas unitarias del proyecto lo puedes hacer con el comando:
 ``` npm test```
 ***
 ### Diseño de la Interfaz de Usuario
+
 
 ## ✨ Agradecimientos
 * Laboratoria 💛 familia y amigos  .
