@@ -5,9 +5,8 @@
 
 * [1. Descripción del proyecto](#2-resumen-del-proyecto)
 * [2. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
+
+* [3. Consideraciones técnicas](#7-consideraciones-técnicas)
 
 ***
 
@@ -64,9 +63,8 @@ The MIT License (MIT)
 Para correr las pruebas unitarias del proyecto lo puedes hacer con el comando:
 ``` npm test```
 ***
-### Diseño de la Interfaz de Usuario
-
 
 ## ✨ Agradecimientos
-* Laboratoria 💛 familia y amigos  .
+* Laboratoria 💛 familia y amigos.
+
 
