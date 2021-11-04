@@ -15,7 +15,7 @@
 
 Encuentra tus pokemones favoritos y descubre todas sus habilidades para convertirte en el mejor maestro pokemón.
 
-<img src = "http://g.recordit.co/3SMNPAxJfO.gif" />
+<img src = "http://g.recordit.co/3SMNPAxJfO.gif" width="" height="200"  />
 
 ## 3. 🔍Objetivos de aprendizaje 
 
