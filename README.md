@@ -9,7 +9,6 @@
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [7. Consideraciones técnicas](#7-consideraciones-técnicas)
 
-
 ***
 
 ## 1. Descripción del proyecto 
