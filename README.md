@@ -1,3 +1,4 @@
+
 # Guía Pokedex ![Status badge](https://img.shields.io/badge/status-%20finished-yellow)
 
 ## Índice
@@ -7,6 +8,9 @@
 * [4. consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [7. Consideraciones técnicas](#7-consideraciones-técnicas)
+=======
+[Presentación1.pptx](https://github.com/makemile/LIM015-data-lovers/files/6876052/Presentacion1.pptx)
+![top1](https://user-images.githubusercontent.com/83560300/126944253-0c0297af-5dde-4a7d-a901-a68131746018.gif)
 
 ***
 
@@ -34,6 +38,7 @@ Encuentra tus pokemones favoritos y descubre todas sus habilidades para converti
 
 ### JavaScript
 
+
 * [x] Uso de condicionales (if-else | switch | operador ternario)
 * [x] [Uso de bucles (for | for..in | for..of | while)](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Bucles_e_iteraci%C3%B3n)
 * [x] [Uso de funciones (parámetros | argumentos | valor de retorno)](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Funciones)
@@ -49,6 +54,7 @@ Encuentra tus pokemones favoritos y descubre todas sus habilidades para converti
 * [x] [Uso de comandos de git (add | commit | pull | status | push)](https://github.com/jlord/git-it-electron)
 * [x] Manejo de repositorios de GitHub (clone | fork | gh-pages)
 * [x] Colaboración en Github (branches | pull requests | |[tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging))
+
 
 ***
 ### ⌛️ Intsalación
