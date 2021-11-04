@@ -1,139 +1,173 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Pokemon</title>
     <link rel="stylesheet" href="style.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <section class="logo">
-            <img class="header__img" src="./img/Logo.png" alt="logo">
-        </section>
-        <span class="nav-bar" id="btnMenu">Menú</span>
-        <nav class="main-nav">
-            <ul class="menu" id="menu">
-                <li class="menu__item"><a id="home" href="index.html" class="menu__link0">Home</a>
-                </li>
-                <li class="menu__item container-submenu1">
-                    <a href="#" class="menu__link1 submenu1-btn1">Pokedex</a>
-                    <ul class="submenu1">
-                        <li class="menu__item"><a id="creciente" href="#" class="menu__link1">A-Z</a>
-                        </li>
-                        <li class="menu__item"><a id="decreciente" href="#" class="menu__link1">Z-A</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="menu__item container-submenu2">
-                    <a href="#" class="menu__link2 submenu2-btn2">Región
-                    </a>
-                    <ul class="submenu2">
-                        <li class="menu__item"><a href="#" id="johto" class="menu__link2">Johto</a>
-                        </li>
-                        <li class="menu__item"><a href="#" id="kanto" class="menu__link2">Kanto</a>
-                        </li>
-                    </ul>
-                </li>
-
-
-                <li class="menu__item container-submenu3">
-                    <a href="#" class="menu__link3 submenu3-btn3">Tipos</a>
-                    <ul class="submenu3">
-                        <li class="menu__item"><a id="steel" href="#" class="menu__link3">Acero</a>
-                        </li>
-                        <li class="menu__item"><a id="water" href="#" class="menu__link3">Agua</a>
-                        </li>
-                        <li class="menu__item"><a id="bug" href="#" class="menu__link3">Bicho</a>
-                        </li>
-                        <li class="menu__item"><a id="dragon" href="#" class="menu__link3">Dragón</a>
-                        </li>
-                        <li class="menu__item"><a id="electric" href="#" class="menu__link3">Eléctrico</a>
-                        </li>
-                        <li class="menu__item"><a id="ghost" href="#" class="menu__link3">Fantasma</a>
-                        </li>
-                        <li class="menu__item"><a id="fire" href="#" class="menu__link3">Fuego</a>
-                        </li>
-                        <li class="menu__item"><a id="ice" href="#" class="menu__link3">Hielo</a>
-                        </li>
-                        <li class="menu__item"><a id="fighting" href="#" class="menu__link3">Lucha</a>
-                        </li>
-                        <li class="menu__item"><a id="normal" href="#" class="menu__link3">Normal</a>
-                        </li>
-                        <li class="menu__item"><a id="grass" href="#" class="menu__link3">Planta</a>
-                        </li>
-                        <li class="menu__item"><a id="psychic" href="#" class="menu__link3">Psiquico</a>
-                        </li>
-                        <li class="menu__item"><a id="rock" href="#" class="menu__link3">Roca</a>
-                        </li>
-                        <li class="menu__item"><a id="ground" href="#" class="menu__link3">Tierra</a>
-                        </li>
-                        <li class="menu__item"><a id="poison" href="#" class="menu__link3">Veneno</a>
-                        </li>
-                        <li class="menu__item"><a id="flying" href="#" class="menu__link3">Volador</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="menu__item container-submenu4">
-                    <a id="estadisticas" href="#" class="menu__link4 submenu4-btn4">Estadisticas</a>
-                </li>
+      <section class="logo">
+        <img class="header__img" src="./img/Logo.png" alt="logo" />
+      </section>
+      <span class="nav-bar" id="btnMenu">Menú</span>
+      <nav class="main-nav">
+        <ul class="menu" id="menu">
+          <li class="menu__item">
+            <a id="home" href="index.html" class="menu__link0">Home</a>
+          </li>
+          <li class="menu__item container-submenu1">
+            <a href="#" class="menu__link1 submenu1-btn1">Pokedex</a>
+            <ul class="submenu1">
+              <li class="menu__item">
+                <a id="creciente" href="#" class="menu__link1">A-Z</a>
+              </li>
+              <li class="menu__item">
+                <a id="decreciente" href="#" class="menu__link1">Z-A</a>
+              </li>
             </ul>
-            <!--  Búsqueda-->
-            <section class="buscador">
-                <input type="text" id="txtBuscar" placeholder="Ingrese nombre / número" class="cajas" />
-                <button id="btnBuscar" class="botones">Buscar</button>
-            </section>
-        </nav>
+          </li>
+          <li class="menu__item container-submenu2">
+            <a href="#" class="menu__link2 submenu2-btn2">Región </a>
+            <ul class="submenu2">
+              <li class="menu__item">
+                <a href="#" id="johto" class="menu__link2">Johto</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" id="kanto" class="menu__link2">Kanto</a>
+              </li>
+            </ul>
+          </li>
 
+          <li class="menu__item container-submenu3">
+            <a href="#" class="menu__link3 submenu3-btn3">Tipos</a>
+            <ul class="submenu3">
+              <li class="menu__item">
+                <a id="steel" href="#" class="menu__link3">Acero</a>
+              </li>
+              <li class="menu__item">
+                <a id="water" href="#" class="menu__link3">Agua</a>
+              </li>
+              <li class="menu__item">
+                <a id="bug" href="#" class="menu__link3">Bicho</a>
+              </li>
+              <li class="menu__item">
+                <a id="dragon" href="#" class="menu__link3">Dragón</a>
+              </li>
+              <li class="menu__item">
+                <a id="electric" href="#" class="menu__link3">Eléctrico</a>
+              </li>
+              <li class="menu__item">
+                <a id="ghost" href="#" class="menu__link3">Fantasma</a>
+              </li>
+              <li class="menu__item">
+                <a id="fire" href="#" class="menu__link3">Fuego</a>
+              </li>
+              <li class="menu__item">
+                <a id="ice" href="#" class="menu__link3">Hielo</a>
+              </li>
+              <li class="menu__item">
+                <a id="fighting" href="#" class="menu__link3">Lucha</a>
+              </li>
+              <li class="menu__item">
+                <a id="normal" href="#" class="menu__link3">Normal</a>
+              </li>
+              <li class="menu__item">
+                <a id="grass" href="#" class="menu__link3">Planta</a>
+              </li>
+              <li class="menu__item">
+                <a id="psychic" href="#" class="menu__link3">Psiquico</a>
+              </li>
+              <li class="menu__item">
+                <a id="rock" href="#" class="menu__link3">Roca</a>
+              </li>
+              <li class="menu__item">
+                <a id="ground" href="#" class="menu__link3">Tierra</a>
+              </li>
+              <li class="menu__item">
+                <a id="poison" href="#" class="menu__link3">Veneno</a>
+              </li>
+              <li class="menu__item">
+                <a id="flying" href="#" class="menu__link3">Volador</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu__item container-submenu4">
+            <a id="estadisticas" href="#" class="menu__link4 submenu4-btn4"
+              >Estadisticas</a
+            >
+          </li>
+        </ul>
+        <!--  Búsqueda-->
+        <section class="buscador">
+          <input
+            type="text"
+            id="txtBuscar"
+            placeholder="Ingrese nombre / número"
+            class="cajas"
+          />
+          <button id="btnBuscar" class="botones">Buscar</button>
+        </section>
+      </nav>
     </header>
     <main>
+      <section class="estadisticas"></section>
 
-        <section class="estadisticas"></section>
+      <article id="listaPokemon">
+        <!-- html medianete js -->
+      </article>
 
-        <article id="listaPokemon">
-            <!-- html medianete js -->
-        </article>
-
-        <!-- mensaje de bienvenida -->
-        <!-- <section class="fondo_transparente">
-            <div class="modal">
-                <div class="modal_cerrar">
-                    <span>X</span>
-                </div>
-            </div>
-        </section> -->
-        <!-- Ficha Tecnica -->
-        <article id="fichaTecnicaPokemon">
-        </article>
+      <article id="fichaTecnicaPokemon"></article>
     </main>
     <footer class="footer-container">
-
-        <div class="footer_social">
-            <div class="GithubButton_container">
-                <a href="https://github.com/Laboratoria/LIM015-data-lovers" rel="noopernoreferrer" target="_grey" title="htpp.cat github repository">
-                    <img height="50px" src="https://img.icons8.com/fluent/48/000000/github.png" width="50px" />
-                </a>
-            </div>
+      <div class="footer_social">
+        <div class="GithubButton_container">
+          <a
+            href="https://github.com/Laboratoria/LIM015-data-lovers"
+            rel="noopernoreferrer"
+            target="_grey"
+            title="htpp.cat github repository"
+          >
+            <img
+              height="50px"
+              src="https://img.icons8.com/fluent/48/000000/github.png"
+              width="50px"
+            />
+          </a>
         </div>
-        <p class="p">"Developed By"
-            <a class="a" href="https://github.com/Elipinto23/LIM015-data-lovers">@Elipinto23 </a>
-            <a class="a" href="https://github.com/yandali-damian/LIM015-data-lovers"> @yandali-damian </a> &
-            <a class="a" href="https://github.com/makemile/LIM015-data-lovers"> @makemile</a>
-        </p>
-        <p class="p">
-            "Images by"
-            <a class="a" href="https://serebii.net/">serebii.net</a>
-        </p>
-        <div class="text-center">
-            © 2020 Copyright:
-            <a class="a" href="http://localhost:59886/#">Guía Pokedex</a>
-        </div>
-        <p class="p">Hecho con ♥</p>
+      </div>
+      <p class="p">
+        "Developed By"
+        <a class="a" href="https://github.com/Elipinto23/LIM015-data-lovers"
+          >@Elipinto23
+        </a>
+        <a
+          class="a"
+          href="https://github.com/yandali-damian/LIM015-data-lovers"
+        >
+          @yandali-damian
+        </a>
+        &
+        <a class="a" href="https://github.com/makemile/LIM015-data-lovers">
+          @makemile</a
+        >
+      </p>
+      <p class="p">
+        "Images by"
+        <a class="a" href="https://serebii.net/">serebii.net</a>
+      </p>
+      <div class="text-center">
+        © 2021 Copyright:
+        <a class="a" href="http://localhost:59886/#">Guía Pokedex</a>
+      </div>
+      <p class="p">Hecho con ♥</p>
     </footer>
     <script src="main.js" type="module"></script>
     <!-- importando libreria charts.js -->
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-</body>
-
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+    ></script>
+  </body>
 </html>

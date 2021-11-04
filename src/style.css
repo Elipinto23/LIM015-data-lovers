@@ -1,33 +1,24 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 body {
-    background-image: linear-gradient(to top, #067DA3 0%, #000000 100%);
-    background-image: url("./img/bg.JPG");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  background-image: linear-gradient(to top, #067da3 0%, #000000 100%);
+  background-image: url("./img/bg.JPG");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 header {
-    box-sizing: border-box;
-}
-
-.nav-bar {
-    padding: 20px;
-    display: block;
-    color: white;
-    cursor: pointer;
-    font-size: 20px;
-    width: 100%;
+  box-sizing: border-box;
 }
 
 .menu {
-    margin-left: -100%;
-    /* width: 100%; */
-    transition: all 0.5s;
+  margin-left: -100%;
+  transition: all 0.5s;
 }
 
 .menu,
@@ -35,9 +26,9 @@ header {
 .submenu2,
 .submenu3,
 .submenu4 {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .menu__link0,
@@ -45,514 +36,427 @@ header {
 .menu__link2,
 .menu__link3,
 .menu__link4 {
-    display: block;
-    padding: 5px;
-    text-decoration: none;
-    font-size: 15px;
-    color: white;
-    width: 125px;
-    font-size: x-large;
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 21px;
+  color: white;
+  width: 100px;
+  justify-content: center;
 }
 
 .menu__link0 {
-    border-bottom: #ff0800 10px solid;
-
+  border-bottom: #ff0800 solid 7px;
 }
 
-.menu__link0 img{
-    width: 30px;
-    height: 30px;
+.menu__link0 img {
+  width: 30px;
+  height: 30px;
 }
 
-
-.menu__link0:hover {
-    background: #ff0800;
-    color: rgb(248, 252, 251);
+.submenu0 {
+  background-color: red;
+  text-decoration: none;
 }
 
 .menu__link1 {
-    /* background: #ffc80080; */
-    border-bottom: #FFC700 10px solid;
+  border-bottom: gold solid 7px;
 }
 
-.menu__link1:hover {
-    background: #FFC700;
-    color: rgb(248, 252, 251);
+.submenu1 {
+  background-color: gold;
+  text-decoration: none;
+}
+
+.submenu1 .menu__link1:hover {
+  background-color: rgb(235, 226, 226);
 }
 
 .menu__link2 {
-    /* background: #63b63d8c; */
-    border-bottom: #64B63D 10px solid;
+  border-bottom: #64b63d solid 7px;
 }
 
-.menu__link2:hover {
-    background: #64B63D;
-    color: rgb(248, 252, 251);
+.submenu2 {
+  background-color: #64b63d;
+  text-decoration: none;
+}
+
+.submenu2 .menu__link2:hover {
+  background: rgb(235, 226, 226);
 }
 
 .menu__link3 {
-    /* background: #0082fc7e; */
-    border-bottom: #0083FC 10px solid;
+  border-bottom: #0083fc solid 7px;
 }
 
-.menu__link3:hover {
-    background: #0083FC;
-    color: rgb(248, 252, 251);
+.submenu3 {
+  background-color: #0083fc;
+  text-decoration: none;
+}
+
+.submenu3 .menu__link3:hover {
+  background: rgb(235, 226, 226);
 }
 
 .menu__link4 {
-    /* background: #f904d088; */
-    border-bottom: #F904D1 10px solid;
+  border-bottom: #f904d1 7px solid;
 }
 
-.menu__link4:hover {
-    background: #F904D1;
-    color: rgb(248, 252, 251);
+.submenu4 {
+  background-color: #f904d1;
+  text-decoration: none;
+}
+
+.submenu4 .menu__link4:hover {
+  background: rgb(235, 226, 226);
 }
 
 .submenu1 .menu__link1,
 .submenu2 .menu__link2,
 .submenu3 .menu__link3,
 .submenu4 .menu__link4 {
-    padding-left: 08px;
+  padding-left: 08px;
 }
 
 .submenu1,
 .submenu2,
 .submenu3,
 .submenu4 {
-    position: absolute;
-    /* top: 60px; */
-    padding-left: -20px;
-    overflow: visible;
-    /*para que siempre se muestre delanto de todos*/
-    opacity: 0;
-    visibility: hidden;
+  position: absolute;
+  padding-left: -20px;
+  overflow: visible;
+  opacity: 0;
+  visibility: hidden;
 }
 
 .mostrar {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 .container-submenu1,
 .container-submenu2,
 .container-submenu3,
 .container-submenu4 {
-    position: relative;
+  position: relative;
 }
 
 .container-submenu1:hover .submenu1,
 .container-submenu2:hover .submenu2,
 .container-submenu3:hover .submenu3,
 .container-submenu4:hover .submenu4 {
-    opacity: 1;
-    visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
-
-.submenu1 .menu__link1:hover {
-    background: #FFC700;
-}
-
-.submenu2 .menu__link2:hover {
-    background: grey;
-}
-
-.submenu3 .menu__link3:hover {
-    background: #0083FC;
-}
-
-.submenu4 .menu__link4:hover {
-    background: #F904D1;
-}
-
-@media(min-width:960px) {
-    .nav-bar {
-        display: none;
-    }
-    .menu {
-        display: flex;
-        margin-left: 0;
-    }
-    .container-submenu1,
-    .container-submenu2,
-    .container-submenu3,
-    .container-submenu4 {
-        position: relative;
-    }
-}
-
-
-/* @media(min-width:960px) {
-    .nav-bar {
-        display: none;
-    }
-    .menu {
-        display: flex;
-        margin-left: 0;
-    }
-    .container-submenu1,
-    .container-submenu2,
-    .container-submenu3,
-    .container-submenu4 {
-        position: relative;
-    }
-    .submenu1,
-    .submenu2,
-    .submenu3,
-    .submenu4 {
-        position: absolute;
-        top: 60px;
-        padding-left: -20px;
-        overflow: visible;
-        z-index: 1000;
-        para que siempre se muestre delanto de todos*/
-
-
-/*  opacity: 0;
-        visibility: hidden;
-    }
-    .container-submenu1:hover .submenu1,
-    .container-submenu2:hover .submenu2,
-    .container-submenu3:hover .submenu3,
-    .container-submenu4:hover .submenu4 {
-        opacity: 1;
-        visibility: visible;
-    }
-    .submenu1 .menu__link1:hover {
-        background: grey;
-    }
-    .submenu2 .menu__link2:hover {
-        background: grey;
-    }
-    .submenu3 .menu__link3:hover {
-        background: grey;
-    }
-    .submenu4 .menu__link4:hover {
-        background: grey;
-    }
-} */
-
 
 /* OCULTAR FICHA TECNICA */
 
 #fichaTecnicaPokemon,
 .estadisticas {
-    display: none;
+  display: none;
 }
-
-
-/*responsive buscador*/
-
-@media screen and (min-width: 620px) {
-    .search:hover>.searchtext {
-        width: 90px;
-    }
-}
-
 
 /* ESTILOS PARA LA IMAGEN POKEMON */
 
 #numpokemon {
-    display: flex;
-    flex-flow: row wrap;
-    height: 40rem;
-    justify-content: space-between;
+  display: flex;
+  flex-flow: row wrap;
+  height: 40rem;
+  justify-content: space-between;
 }
 
 .fotoPokemon {
-    box-shadow: 0 0 9px 0 #c4c3c3;
-    background-image: linear-gradient(180deg, #28c4669d 0%, #09c9d3c5 100%);
-    /* background-color: #ffffff9f; */
-    padding: 1em;
-    margin: 1em;
-    border-radius: 0.4em;
-    max-width: 18em;
-    min-width: 9em;
-    /* display: grid; */
-    flex-basis: 40%;
-    text-align: center;
-    /* cursor: pointer; */
-    /* float: left;
-    margin: 5px;
-    padding: 10px;
-    margin-left: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    border-radius: 15px 15px 15px 15px;
-    box-shadow: 0px 0px 5px 3px #03def4;
-    background-image: linear-gradient(180deg, #28c4669d 0%, #09c9d3c5 100%); */
+  box-shadow: 0 0 9px 0 #c4c3c3;
+  background-image: linear-gradient(180deg, #28c4669d 0%, #09c9d3c5 100%);
+
+  padding: 1em;
+  margin: 1em;
+  border-radius: 0.4em;
+  max-width: 18em;
+  min-width: 9em;
+
+  flex-basis: 40%;
+  text-align: center;
 }
 
 .fotoPokemon figcaption {
-    background-color: rgba(255, 255, 255, 0.719);
-    font-family: 'Roboto', sans-serif;
-    padding: 2px;
-    text-align: center;
-    border-radius: 0px 0px 15px 15px;
-    text-transform: capitalize;
-    
+  background-color: rgba(255, 255, 255, 0.719);
+  font-family: "Roboto", sans-serif;
+  padding: 2px;
+  text-align: center;
+  border-radius: 0px 0px 15px 15px;
+  text-transform: capitalize;
 }
 
 .num {
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    text-transform: capitalize;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
 }
 
 .datosPokemon {
-    color: rgba(255, 255, 255, 1);
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Roboto", sans-serif;
+  text-align: center;
 }
 
 .verMas {
-    color: blue;
-    font-weight: bold;
-    text-transform: capitalize;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
+  color: blue;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
 }
 
 .imagenPokemon {
-    /* display: flex; */
-    margin: 5px;
-    padding: 10px;
-    width: 120px;
-    /* border: 1px #000000 solid; */
-    border-radius: 15px 15px 15px 15px;
-    /* background: linear-gradient(#7CFFA8, #05ECFB); */
-    background-image: linear-gradient(180deg, #37d6769d 0%, #087a80c5 100%);
+  margin: 5px;
+  padding: 10px;
+  width: 120px;
+
+  border-radius: 15px 15px 15px 15px;
+
+  background-image: linear-gradient(180deg, #37d6769d 0%, #087a80c5 100%);
 }
 
 .nombrePokemon {
-    text-transform: capitalize;
-    font-family: 'Roboto', sans-serif;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
 }
 
 .btnSalir {
-    font-family: 'Roboto', sans-serif;
-    font-style: roboto;
-    background: rgb(3, 3, 3);
-    padding: 8px 30px;
-    color: rgb(255, 251, 0);
-    text-decoration: none;
-    border-radius: 25px;
-    border: 1px solid rgb(0, 0, 0);
-    cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-style: roboto;
+  background: rgb(3, 3, 3);
+  padding: 8px 30px;
+  color: rgb(255, 251, 0);
+  text-decoration: none;
+  border-radius: 25px;
+  border: 1px solid rgb(0, 0, 0);
+  cursor: pointer;
 }
 
 .btnSalir:hover {
-    background: rgb(0, 0, 0);
-    color: rgb(0, 255, 213);
+  background: rgb(0, 0, 0);
+  color: rgb(0, 255, 213);
 }
 
 .header__img {
-    width: 150px;
+  width: 150px;
 }
 
 .fondo_transparente {
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    height: 100vh;
-    width: 100%;
-    display: block;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  display: block;
 }
 
 .logo {
-    float: left;
-    margin-left: 18px;
-    margin-top: 8px;
-    position: absolute;
-    z-index: 1000;
-    display: flex;
+  float: left;
+  margin-left: 18px;
+  margin-top: 8px;
+
+  z-index: 1000;
+  display: flex;
 }
 
 .modal {
-    /* background: linear-gradient(0deg, white 70%, crimson 30%); */
-    /* background-image: url("./img/welcome2.jpg"); */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 80%;
-    height: 70%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: 30px;
-    z-index: 1000;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 80%;
+  height: 70%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 30px;
+  z-index: 1000;
 }
 
 .modal_cerrar {
-    background: white;
-    position: absolute;
-    right: -20px;
-    color: crimson;
-    top: -20px;
-    width: 40px;
-    height: 40px;
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    font-weight: bold;
-
-
+  background: white;
+  position: absolute;
+  right: -20px;
+  color: crimson;
+  top: -20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 #listaPokemon {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1100px;
-    padding: 1em 1em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-position: center;
-    background-color: #fafafa6e;
-    border-radius: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px;
+  padding: 1em 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-position: center;
+  background-color: #fafafa6e;
+  border-radius: 1em;
   justify-content: center;
 }
-
 
 /* estilos de buscador */
 
 .buscador {
-    text-align: right;
-    margin-left: auto;
-    /* margin-right: 115px; */
-    max-width: 1100px;
-    margin-top: 18px;
+  text-align: right;
+  margin-left: auto;
+
+  max-width: 1100px;
+  margin-top: 18px;
 }
 
 .botones {
-    padding: 8px 15px;
-    border-radius: 5px;
-    font-weight: 700;
-    background: #0501ff;
-    color: #f2f2f2;
-    border: 0px;
-    /* quitar borde por defecto */
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: 700;
+  background: #0501ff;
+  color: #f2f2f2;
+  border: 0px;
 }
 
 .botones:hover {
-    opacity: 0.8;
-    cursor: pointer;
-    /* cursor manito */
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 .cajas {
-    padding: 5px;
-    border-radius: 5px;
-    font-weight: 700;
-    border: 1px #000000 solid;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 700;
+  border: 1px #000000 solid;
 }
 
 .fichaT,
 .main-nav {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1100px;
-    padding: 4em 1em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px;
+  padding: 4em 1em;
+  display: flex;
+
+  background-position: center;
 }
 
 /* ESTADISTICAS */
 
 .estadisticas {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1100px;
-    padding: 1em 1em;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-position: center;
-    background-color: #fafafa6e;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    border-radius: 1em;
-    /* padding-bottom: 350px; */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px;
+  padding: 1em 1em;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-position: center;
+  background-color: #fafafa6e;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  border-radius: 1em;
 }
 
 .estResultado {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .section {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .estCp,
 .estPeso,
 .estHp {
-    padding: 8px 15px;
-    border-radius: 5px;
-    font-weight: 700;
-    background: #0501ff;
-    color: #f2f2f2;
-    border: 0px;
-    margin-left: 10px;
-    /* quitar borde por defecto */
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: 700;
+  background: #0501ff;
+  color: #f2f2f2;
+  border: 0px;
+  margin-left: 10px;
 }
 
 .estCp:hover {
-    opacity: 0.8;
-    cursor: pointer;
-    /* cursor manito */
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 .estPeso:hover {
-    opacity: 0.8;
-    cursor: pointer;
-    /* cursor manito */
+  opacity: 0.8;
+  cursor: pointer;
 }
 
-footer {
-    display: fixed;
-    background: #0583f8a6;
+.footer {
+  display: fixed;
+  background: #0583f8a6;
 }
 
 .footer_container {
-    margin-top: 5em;
-    text-align: center;
-    width: 50%;
-    height: 20%;
+  margin-top: 5em;
+  text-align: center;
+  width: 50%;
+  height: 20%;
 }
 
 .footer_social {
-    display: flex;
-    justify-content: center;
-    margin-top: 5em;
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
 }
 
 .p {
-    display: block;
-    justify-content: center;
-    padding: 0.5em;
-    display: flex;
-    color: black;
+  display: block;
+  justify-content: center;
+  padding: 0.5em;
+  display: flex;
+  color: black;
 }
 
 .text-center {
-    display: block;
-    display: flex;
-    justify-content: center;
+  display: block;
+  display: flex;
+  justify-content: center;
 }
 
 .a {
-    color: ghostwhite;
+  color: ghostwhite;
+}
+
+@media (min-width: 960px) {
+  .nav-bar {
+    display: none;
+  }
+  .menu {
+    display: flex;
+    margin-left: 0;
+  }
+  .container-submenu1,
+  .container-submenu2,
+  .container-submenu3,
+  .container-submenu4 {
+    position: relative;
+  }
+}
+
+/*responsive buscador*/
+
+@media screen and (min-width: 620px) {
+  .search:hover > .searchtext {
+    width: 90px;
+  }
 }
