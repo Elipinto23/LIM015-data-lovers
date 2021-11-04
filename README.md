@@ -15,7 +15,7 @@
 
 Por medio de ésta guía  podrás encontrar los pokemones de la región Kanto y Johto y, cada una de sus caracteristicas, encuentra tu pokemon favorito y a ganar!  💪
 
-![GUIAPOKE](http://g.recordit.co/3SMNPAxJfO.gif)
+![GUIAPOKE](http://g.recordit.co/PvjbLz4L6v.gif)
 
 ## 3. 🔍Objetivos de aprendizaje 
 
