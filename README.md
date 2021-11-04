@@ -13,9 +13,9 @@
 
 ## 1. Descripción del proyecto 
 
-Encuentra tus pokemones favoritos y descubre todas sus habilidades para convertirte en el mejor maestro pokemón.
+Por medio de ésta guía  podrás encontrar los pokemones de la región Kanto y Johto y, cada una de sus caracteristicas, encuentra tu pokemon favorito y a ganar!  💪
 
-<img src = "http://g.recordit.co/3SMNPAxJfO.gif" width="" height="200"  />
+![GUIAPOKE](http://g.recordit.co/3SMNPAxJfO.gif)
 
 ## 3. 🔍Objetivos de aprendizaje 
 
@@ -54,12 +54,6 @@ Encuentra tus pokemones favoritos y descubre todas sus habilidades para converti
 
 
 ***
-### ⌛️ Intsalación
-
-1. Clona éste proyecto.
-2. Ve a la carpeta del proyecto ``` cd pokedex```
-3. Corre el ambiente local  ```npm run start```
-
 
 ### 🧾 License
 
